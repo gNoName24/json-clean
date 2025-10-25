@@ -159,16 +159,6 @@ CONFIGURE_FILE(
 )
 
 ##
-## TESTS
-## create and configure the unit test target
-##
-if (JSON_BuildTests)
-    include(CTest)
-    enable_testing()
-    add_subdirectory(tests)
-endif()
-
-##
 ## INSTALL
 ## install header files, generate and install cmake config files for find_package()
 ##
